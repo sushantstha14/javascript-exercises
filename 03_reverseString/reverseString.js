@@ -1,5 +1,5 @@
 const reverseString = function(text) {
-    const myArray = text.split("");
+   /* const myArray = text.split("");
     let popResult = "";
     let result = "";
     
@@ -8,11 +8,13 @@ const reverseString = function(text) {
          result += popResult;
         
     }
-    return result;
+    return result;*/
+
+    return text.split("").reverse().join("");
     
 };
 
-reverseString(" ");
+reverseString("hello");
 
 // Do not edit below this line
 module.exports = reverseString;
